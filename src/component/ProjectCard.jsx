@@ -10,6 +10,7 @@ export const ProjectCard = ({ title, description, link, tech }) => {
         <a
           href="https://www.google.com/"
           target="_blank"
+          rel="noreferrer" 
           className="mt-3 inline-block text-blue-500 hover:underline"
         >
           View Project
