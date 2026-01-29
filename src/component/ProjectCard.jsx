@@ -8,7 +8,7 @@ export const ProjectCard = ({ title, description, link, tech }) => {
       )}
       {link && (
         <a
-          href="https://www.google.com/"
+          href={link}
           target="_blank"
           rel="noreferrer" 
           className="mt-3 inline-block text-blue-500 hover:underline"
